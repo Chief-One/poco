@@ -80,7 +80,7 @@ namespace <#= classNamespace #>
     }
 
 <# //Now do tha mapping #>
-	public class <#= table.Name#>Map: : EntityMap<<#= table.Name#>> 
+	public class <#= table.Name#>Map: EntityMap<<#= table.Name#>> 
     {
 		public <#= table.Name#>Map()
 		{
